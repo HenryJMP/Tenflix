@@ -1,27 +1,23 @@
 #include "Videos.hpp"
 
 //Constructor
-Videos::Videos(std::string _titulo, std::string _genero, std::string _sinopsis, float _duracion, float _calificacion): titulo{_titulo}, genero{_genero}, sinopsis{_sinopsis}, duracion{_duracion}, calificacion{_calificacion}{}
+Videos::Videos(std::string _id, std::string _nombre, std::string _genero, float _duracion): id{_id}, nombre{_nombre}, genero{_genero}, duracion{_duracion} {}
 
 //Metodos de acceso
-std::string Videos::getTitulo() const{
-    return titulo;
+std::string Videos::getID() const{
+    return id;
+}
+
+std::string Videos::getNombre() const{
+    return nombre;
 }
 
 std::string Videos::getGenero() const{
     return genero;
 }
 
-std::string Videos::getSinopsis() const{
-    return sinopsis;
-}
-
 float Videos::getDuracion() const{
-    return calificacion;
-}
-
-float Videos::getCalificacion() const{
-    return calificacion;
+    return duracion;
 }
 
 
