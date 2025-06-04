@@ -4,10 +4,11 @@
 class Videos{
     public:
         //Constructor 
-        Videos(std::string, std::string, float, float);
+        Videos(std::string, std::string, std::string, float, float);
         //Metodos de acceso
         std::string getTitulo() const;
         std::string getGenero() const;
+        std::string getSinopsis() const;
         float getDuracion() const;
         float getCalificacion() const;
         //Metodos modificadores
@@ -20,6 +21,7 @@ class Videos{
     private:
         std::string titulo;
         std::string genero;
+        std::string sinopsis;
         float duracion;
         float calificacion;
 
