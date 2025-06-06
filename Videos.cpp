@@ -20,4 +20,7 @@ float Videos::getDuracion() const{
     return duracion;
 }
 
+float Videos::getCalificacion() const{
+    return calificacion;
+}
 
