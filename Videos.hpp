@@ -7,24 +7,28 @@
 // Serue 10 Temo 2 Cap 11? Es el cap de una serie
 // id cap=  0x0A020B
 
-class Videos {
+class Videos{
     public:
         // Constructor 
-        Videos(int, std::string, int, int, int, std::string, std::vector<float>);
-        // Constructor por defecto
-        // Virtual destructor
+        Videos(int, std::string, int, int, int, std::string, std::vector<float>, std::string);
+        // Destructor
         virtual ~Videos() = default;
-        // Métodos de acceso
+        // Métodos de acceso 
         int getId() const;
         std::string getNombre() const;
         int getHoras() const;
         int getMinutos() const;
         int getSegundos() const;
         std::string getGenero() const;
-        std::vector<float> getCalificaciones() const;
+        virtual std::vector<float> getCalificaciones() const = 0;
+        std::string getDescripcion() const;
         // Métodos de modificación
-        virtual void setCalificacion(float);
-        virtual void setCalificaciones(std::vector<float>);
+        virtual void setCalificaciones();
+        // Método para mostrar información
+        virtual void mostrarInformacion() const = 0;
+   
+    protected:
+        std::vector<float> calificaciones;
 
     private:
         uint32_t id;
@@ -33,5 +37,6 @@ class Videos {
         int minutos;
         int segundos;
         std::string genero;
-        std::vector<float> calificaciones;
+        std::string descripcion;
+
 };

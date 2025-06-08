@@ -80,3 +80,63 @@ void VescCAN::vesc_set_erpm(float eerpm) {
     buffer[3] = set_value & 0xFF;
     uint32_t canId = 0x00000300 | deviceId;
 }
+
+
+// ---------------------------------------- //
+
+#include <iostream>
+#include <iomanip>
+
+class Cap {
+private:
+    unsigned int id; // Stores the 24-bit ID (6 hex digits)
+
+public:
+    // Constructor takes a hex ID
+    Cap(unsigned int id_val) : id(id_val) {}
+
+    // Check if it's a movie (e.g., series and season are 0)
+    bool isMovie() const {
+        return (id >> 16) == 0 && ((id >> 8) & 0xFF) == 0;
+    }
+
+    // Get series number (first 8 bits)
+    unsigned int getSeries() const {
+        return (id >> 16) & 0xFF;
+    }
+
+    // Get season number (middle 8 bits)
+    unsigned int getSeason() const {
+        return (id >> 8) & 0xFF;
+    }
+
+    // Get episode or movie ID (last 8 bits)
+    unsigned int getEpisodeOrId() const {
+        return id & 0xFF;
+    }
+
+    // Display the Cap details
+    void display() const {
+        if (isMovie()) {
+            std::cout << "Pelicula ID: " << getEpisodeOrId() << std::endl;
+        } else {
+            std::cout << "Serie " << getSeries() 
+                      << " Temporada " << getSeason() 
+                      << " Capitulo " << getEpisodeOrId() << std::endl;
+        }
+    }
+};
+
+int main() {
+    // Example declarations
+    Cap movie(0x00000B);       // Movie with ID 11
+    Cap episode(0x0A020B);     // Series 10, Season 2, Episode 11
+    Cap capi(0x01020A);        // Series 1, Season 2, Episode 10
+
+    // Display information
+    movie.display();
+    episode.display();
+    capi.display();
+
+    return 0;
+}

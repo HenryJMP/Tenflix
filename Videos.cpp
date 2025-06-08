@@ -1,8 +1,8 @@
 #include "Videos.hpp"
 
 // Constructor
-Videos::Videos(int id, std::string nombre, int horas, int minutos, int segundos, std::string genero, std::vector<float> calificaciones)
-    : id(id), nombre(nombre), horas(horas), minutos(minutos), segundos(segundos), genero(genero), calificaciones(calificaciones) {}
+Videos::Videos(int _id, std::string _nombre, int _horas, int _minutos, int _segundos, std::string _genero, std::vector<float> _calificaciones, std::string _descripcion)
+    : id{_id}, nombre{_nombre}, horas{_horas}, minutos{_minutos}, segundos{_segundos}, genero{_genero}, calificaciones{_calificaciones}, descripcion{_descripcion} {}
 
 // Métodos de acceso
 int Videos::getId() const {
@@ -33,13 +33,6 @@ std::vector<float> Videos::getCalificaciones() const {
     return calificaciones;
 }
 
-// Métodos de modificación
-void Videos::setCalificacion(float calificacion) {
-    calificaciones.push_back(calificacion);
-}
 
-void Videos::setCalificaciones(std::vector<float> nuevasCalificaciones) {
-    calificaciones = nuevasCalificaciones;
-}
 
 

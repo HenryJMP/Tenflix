@@ -1,21 +1,20 @@
-#include "Cap.hpp"
+#include "Pelis.hpp"
 
 // Constructor
-Cap::Cap(int _id, std::string _nombre, int _horas, int _minutos, int _segundos, std::string _genero, std::vector<float> _calificaciones,
-         int _id_serie, int _id_temp, int _temporada, std::vector<int> _capitulos, int _id_capitulo)
-    : Serie(_id, _nombre, _horas, _minutos, _segundos, _genero, _calificaciones, _id_serie, _id_temp, _temporada, _capitulos), id_capitulo{_id_capitulo} {}
+Pelis::Pelis(int _id, std::string _nombre, int _horas, int _minutos, int _segundos, std::string _genero, std::vector<float> _calificaciones, int _id_peli, std::string _descripcion)
+    : Videos(_id, _nombre, _horas, _minutos, _segundos, _genero, _calificaciones, _descripcion), id_peli{_id_peli} {}
 
 // Métodos de acceso
-int Cap::getIdCapitulo() const {
-    return id_capitulo;
+int Pelis::getIdPeli() const {
+    return id_peli;
 }
 
-std::vector<float> Cap::getCalificaciones() const {
-    return Serie::getCalificaciones();
+std::vector<float> Pelis::getCalificaciones() const {
+    return Videos::getCalificaciones();
 }
 
 // Métodos de modificación
-void Cap::setCalificaciones() {
+void Pelis::setCalificaciones() {
     // Implementación de la lógica para modificar las calificaciones
     // Por ejemplo, podrías agregar una nueva calificación al vector
     float nueva_calificacion;
@@ -25,15 +24,11 @@ void Cap::setCalificaciones() {
 }
 
 // Método para mostrar información
-void Cap::mostrarInformacion() const {
-    std::cout << "Capítulo ID: " << getIdCapitulo() << std::endl;
+void Pelis::mostrarInformacion() const {
+    std::cout << "Pelicula ID: " << getIdPeli() << std::endl;
     std::cout << "Nombre: " << getNombre() << std::endl;
     std::cout << "Duración: " << getHoras() << " horas, " << getMinutos() << " minutos, " << getSegundos() << " segundos" << std::endl;
-    std::cout << "Serie ID: " << getIdSerie() << ", Temporada: " << getTemporada() << ", Capítulos: ";
-    for (const auto& cap : getCapitulos()) {
-        std::cout << cap << " ";
-    }
-    std::cout << std::endl;
+    std::cout << "Género: " << getGenero() << std::endl;
     std::cout << "Calificaciones: ";
     for (const auto& calificacion : getCalificaciones()) {
         std::cout << calificacion << " ";
@@ -42,3 +37,4 @@ void Cap::mostrarInformacion() const {
     std::cout << "Descripción: " << getDescripcion() << std::endl;
     std::cout << "----------------------------------------" << std::endl;
 }
+
