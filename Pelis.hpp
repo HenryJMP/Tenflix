@@ -1,9 +1,10 @@
+#pragma once
 #include "Videos.hpp"
 
 class Pelis : public Videos {
     public:
         // Constructor
-        Pelis(int, std::string, int, int, int, std::string, std::vector<float>, int, std::string);
+        Pelis(uint32_t, std::string, int, int, int, std::string, std::vector<float>, int, std::string);
         // Destructor
         virtual ~Pelis() = default;
         // Métodos de acceso

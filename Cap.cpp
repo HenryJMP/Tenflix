@@ -1,7 +1,7 @@
 #include "Cap.hpp"
 
 // Constructor
-Cap::Cap(int _id, std::string _nombre, int _horas, int _minutos, int _segundos, std::string _genero, std::vector<float> _calificaciones,
+Cap::Cap(uint32_t _id, std::string _nombre, int _horas, int _minutos, int _segundos, std::string _genero, std::vector<float> _calificaciones,
          int _id_serie, int _id_temp, int _temporada, std::vector<int> _capitulos, int _id_capitulo)
     : Serie(_id, _nombre, _horas, _minutos, _segundos, _genero, _calificaciones, _id_serie, _id_temp, _temporada, _capitulos), id_capitulo{_id_capitulo} {}
 

@@ -4,7 +4,7 @@
 class Serie : public Videos {
     public:
         // Constructor
-        Serie(int, std::string, int, int, int, std::string, std::vector<float>, int, int, int, std::vector<int>);
+        Serie(uint32_t, std::string, int, int, int, std::string, std::vector<float>, int, int, int, std::vector<int>);
         // Métodos de acceso
         int getIdSerie() const;
         int getIdTemp() const;

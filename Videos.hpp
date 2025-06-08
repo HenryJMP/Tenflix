@@ -10,11 +10,11 @@
 class Videos{
     public:
         // Constructor 
-        Videos(int, std::string, int, int, int, std::string, std::vector<float>, std::string);
+        Videos(uint32_t, std::string, int, int, int, std::string, std::vector<float>, std::string);
         // Destructor
         virtual ~Videos() = default;
         // Métodos de acceso 
-        int getId() const;
+        uint32_t getId() const;
         std::string getNombre() const;
         int getHoras() const;
         int getMinutos() const;

@@ -1,7 +1,7 @@
 #include "Pelis.hpp"
 
 // Constructor
-Pelis::Pelis(int _id, std::string _nombre, int _horas, int _minutos, int _segundos, std::string _genero, std::vector<float> _calificaciones, int _id_peli, std::string _descripcion)
+Pelis::Pelis(uint32_t _id, std::string _nombre, int _horas, int _minutos, int _segundos, std::string _genero, std::vector<float> _calificaciones, int _id_peli, std::string _descripcion)
     : Videos(_id, _nombre, _horas, _minutos, _segundos, _genero, _calificaciones, _descripcion), id_peli{_id_peli} {}
 
 // Métodos de acceso
