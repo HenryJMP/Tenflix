@@ -29,10 +29,14 @@ std::string Videos::getGenero() const {
     return genero;
 }
 
-std::vector<float> Videos::getCalificaciones() const {
-    return calificaciones;
+std::string Videos::getDescripcion() const {
+    return descripcion;
 }
 
-
-
-
+//Metodos de modificación
+void Videos::setCalificaciones() {
+    float nueva_calificacion;
+    std::cout << "Ingrese una nueva calificación: ";
+    std::cin >> nueva_calificacion;
+    calificaciones.push_back(nueva_calificacion);
+}

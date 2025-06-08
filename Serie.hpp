@@ -11,6 +11,8 @@ class Serie : public Videos {
         int getTemporada() const;
         std::vector<int> getCapitulos() const;
         std::vector<float> getCalificaciones() const override;
+        // Métodos de modificación
+        void setCalificaciones() override;
         //Extras
         void mostrarInformacion() const override;
     

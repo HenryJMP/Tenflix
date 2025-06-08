@@ -140,3 +140,8 @@ int main() {
 
     return 0;
 }
+
+
+CODIGO:
+rm *.o
+g++ -std=c++11 main.cpp Cap.cpp Serie.cpp Pelis.cpp Videos.cpp -o main -ljsoncpp

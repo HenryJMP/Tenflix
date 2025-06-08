@@ -11,7 +11,7 @@ int Cap::getIdCapitulo() const {
 }
 
 std::vector<float> Cap::getCalificaciones() const {
-    return Serie::getCalificaciones();
+    return calificaciones;
 }
 
 // Métodos de modificación

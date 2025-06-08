@@ -23,23 +23,20 @@ std::vector<int> Serie::getCapitulos() const {
 }
 
 std::vector<float> Serie::getCalificaciones() const {
-    return Videos::getCalificaciones();
+    return calificaciones;
 }
 
-void mostrarCapitulos(const std::vector<int>& capitulos) {
-    std::cout << "Capítulos: ";
-    for (const auto& cap : capitulos) {
-        std::cout << cap << " ";
-    }
-    std::cout << std::endl;
-}
 
 void Serie::mostrarInformacion() const { 
     std::cout << "Serie ID: " << getIdSerie() << std::endl;
     std::cout << "Nombre: " << getNombre() << std::endl;
     std::cout << "Duración: " << getHoras() << " horas, " << getMinutos() << " minutos, " << getSegundos() << " segundos" << std::endl;
     std::cout << "Género: " << getGenero() << std::endl;
-    mostrarCapitulos(capitulos);
+    std::cout << "Capítulos: ";
+    for (const auto& cap : capitulos) {
+        std::cout << cap << " ";
+    }
+    std::cout << std::endl;
     std::cout << "Calificaciones: ";
     for (const auto& calificacion : getCalificaciones()) {
         std::cout << calificacion << " ";
@@ -47,6 +44,13 @@ void Serie::mostrarInformacion() const {
     std::cout << std::endl;
     std::cout << "Descripción: " << getDescripcion() << std::endl;
     std::cout << "----------------------------------------" << std::endl;
+}
+
+void Serie::setCalificaciones() {
+    float nueva_calificacion;
+    std::cout << "Ingrese una nueva calificación para la serie: ";
+    std::cin >> nueva_calificacion;
+    calificaciones.push_back(nueva_calificacion);
 }
 
 

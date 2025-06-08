@@ -10,7 +10,7 @@ int Pelis::getIdPeli() const {
 }
 
 std::vector<float> Pelis::getCalificaciones() const {
-    return Videos::getCalificaciones();
+    return calificaciones;
 }
 
 // Métodos de modificación
