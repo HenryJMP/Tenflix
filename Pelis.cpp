@@ -30,7 +30,6 @@ void Pelis::mostrarInformacion() const {
     std::cout << "Nombre: " << getNombre() << std::endl;
     std::cout << "Duración: " << getHoras() << " horas, " << getMinutos() << " minutos, " << getSegundos() << " segundos" << std::endl;
     std::cout << "Género: " << getGenero() << std::endl;
-    std::cout << "Calificación: ";
     std::cout << "Descripción: " << getDescripcion() << std::endl;
     if (!calificaciones.empty()) {
         double suma = 0.0;
