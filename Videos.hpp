@@ -2,6 +2,7 @@
 #include <iostream>
 #include <vector>
 #include <cstdint>
+#include <iomanip>
 // Serie 0 Temp 0 Cap 11? Es una pélicula
 // id peli= 0x00000B
 // Serue 10 Temo 2 Cap 11? Es el cap de una serie
@@ -10,7 +11,7 @@
 class Videos{
     public:
         // Constructor 
-        Videos(uint32_t, std::string, int, int, int, std::string, std::vector<float>, std::string);
+        Videos(uint32_t, std::string, int, int, int, std::string, std::vector<double>, std::string);
         // Destructor
         virtual ~Videos() = default;
         // Métodos de acceso 
@@ -20,7 +21,7 @@ class Videos{
         int getMinutos() const;
         int getSegundos() const;
         std::string getGenero() const;
-        virtual std::vector<float> getCalificaciones() const = 0;
+        virtual std::vector<double> getCalificaciones() const = 0;
         std::string getDescripcion() const;
         // Métodos de modificación
         virtual void setCalificaciones();
@@ -28,7 +29,7 @@ class Videos{
         virtual void mostrarInformacion() const = 0;
    
     protected:
-        std::vector<float> calificaciones;
+        std::vector<double> calificaciones;
 
     private:
         uint32_t id;

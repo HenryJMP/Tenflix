@@ -4,12 +4,12 @@
 class Pelis : public Videos {
     public:
         // Constructor
-        Pelis(uint32_t, std::string, int, int, int, std::string, std::vector<float>, int, std::string);
+        Pelis(uint32_t, std::string, int, int, int, std::string, std::vector<double>, int, std::string);
         // Destructor
         virtual ~Pelis() = default;
         // Métodos de acceso
         int getIdPeli() const;
-        std::vector<float> getCalificaciones() const override;
+        std::vector<double> getCalificaciones() const override;
         // Métodos de modificación
         void setCalificaciones() override;
         //Extras

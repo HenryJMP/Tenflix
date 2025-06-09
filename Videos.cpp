@@ -1,7 +1,7 @@
 #include "Videos.hpp"
 
 // Constructor
-Videos::Videos(uint32_t _id, std::string _nombre, int _horas, int _minutos, int _segundos, std::string _genero, std::vector<float> _calificaciones, std::string _descripcion)
+Videos::Videos(uint32_t _id, std::string _nombre, int _horas, int _minutos, int _segundos, std::string _genero, std::vector<double> _calificaciones, std::string _descripcion)
     : id{_id}, nombre{_nombre}, horas{_horas}, minutos{_minutos}, segundos{_segundos}, genero{_genero}, calificaciones{_calificaciones}, descripcion{_descripcion} {}
 
 // Métodos de acceso
