@@ -1,320 +1,748 @@
 {
-  "0x010000": {
-    "titulo": "Cyberpunk 2077: Edgerunners",
-    "genero": "Animación",
-    "descripcion": "En un mundo distópico, un grupo de mercenarios lucha por sobrevivir en la ciudad de Night City."
-  },
-  "0x010101": {
-    "titulo": "El primer día de la escuela",
-    "duracion": {
-      "horas": 0,
-      "minutos": 30,
-      "segundos": 0
-    },
-    "descripcion": "David, un joven talentoso pero impulsivo, lucha por sobrevivir como un edgerunner, un mercenario que realiza trabajos ilegales.",
-    "calificaciones": [4, 5, 3, 4]
-  },
-  "0x010102": {
-    "titulo": "Trauma Team",
-    "duracion": {
-      "horas": 0,
-      "minutos": 28,
-      "segundos": 0
-    },
-    "descripcion": "David experimenta el lado más brutal de la medicina privada en Night City.",
-    "calificaciones": [5, 4, 4]
-  },
-  "0x010103": {
-    "titulo": "Smooth Criminal",
-    "duracion": {
-      "horas": 0,
-      "minutos": 31,
-      "segundos": 0
-    },
-    "descripcion": "David comienza su entrenamiento como edgerunner con Lucy y su equipo.",
-    "calificaciones": [5, 5, 4]
-  },
-  "0x010201": {
-    "titulo": "Vuelvo al ruedo",
-    "duracion": {
-      "horas": 0,
-      "minutos": 32,
-      "segundos": 0
-    },
-    "descripcion": "Con una nueva reputación, David lidera misiones más peligrosas en Night City.",
-    "calificaciones": [4, 4, 5]
-  },
-  "0x010202": {
-    "titulo": "En la mira",
-    "duracion": {
-      "horas": 0,
-      "minutos": 29,
-      "segundos": 0
-    },
-    "descripcion": "La banda es acechada por fuerzas que operan desde las sombras.",
-    "calificaciones": [5, 5, 5]
-  },
-  "0x010203": {
-    "titulo": "Cyberpsicosis",
-    "duracion": {
-      "horas": 0,
-      "minutos": 34,
-      "segundos": 0
-    },
-    "descripcion": "David comienza a sentir los efectos de las cibermejoras mientras el peligro se intensifica.",
-    "calificaciones": [5, 4, 5]
-  },
-
-  "0x020000": {
-    "titulo": "Stranger Things",
-    "genero": "Ciencia Ficción",
-    "descripcion": "Cuando un niño desaparece, una pequeña ciudad descubre un misterio que involucra experimentos secretos, fuerzas sobrenaturales y una niña extraña."
-  },
-  "0x020101": {
-    "titulo": "El Desvanecimiento de Will",
-    "duracion": { "horas": 0, "minutos": 47, "segundos": 0 },
-    "descripcion": "Will desaparece misteriosamente y su madre comienza una búsqueda desesperada.",
-    "calificaciones": [5, 4, 5, 5]
-  },
-  "0x020102": {
-    "titulo": "La niña del bosque",
-    "duracion": { "horas": 0, "minutos": 50, "segundos": 0 },
-    "descripcion": "Los chicos encuentran a una niña con poderes psíquicos.",
-    "calificaciones": [4, 5, 4]
-  },
-  "0x020103": {
-    "titulo": "Luces de Navidad",
-    "duracion": { "horas": 0, "minutos": 51, "segundos": 0 },
-    "descripcion": "Joyce intenta comunicarse con Will a través de luces navideñas.",
-    "calificaciones": [5, 5, 5]
-  },
-  "0x020201": {
-    "titulo": "Mad Max en Hawkins",
-    "duracion": { "horas": 0, "minutos": 50, "segundos": 0 },
-    "descripcion": "Un nuevo estudiante y un arcade misterioso alteran la dinámica del grupo.",
-    "calificaciones": [4, 4, 5]
-  },
-  "0x020202": {
-    "titulo": "El monstruo en el cubo de basura",
-    "duracion": { "horas": 0, "minutos": 49, "segundos": 0 },
-    "descripcion": "Dustin hace un descubrimiento extraño en su casa.",
-    "calificaciones": [5, 4, 4]
-  },
-  "0x020203": {
-    "titulo": "El espía",
-    "duracion": { "horas": 0, "minutos": 48, "segundos": 0 },
-    "descripcion": "Will tiene visiones perturbadoras mientras el laboratorio investiga el inframundo.",
-    "calificaciones": [4, 5, 5]
-  },
-
-  "0x030000": {
-    "titulo": "The Mandalorian",
-    "genero": "Acción",
-    "descripcion": "Un cazarrecompensas solitario recorre los confines de la galaxia lejos de la autoridad de la Nueva República."
-  },
-  "0x030101": {
-    "titulo": "El Mandaloriano",
-    "duracion": { "horas": 0, "minutos": 39, "segundos": 0 },
-    "descripcion": "Un misterioso guerrero acepta una misión que lo cambia todo.",
-    "calificaciones": [5, 5, 4]
-  },
-  "0x030102": {
-    "titulo": "El niño",
-    "duracion": { "horas": 0, "minutos": 32, "segundos": 0 },
-    "descripcion": "El Mandaloriano debe proteger a un infante con habilidades inusuales.",
-    "calificaciones": [4, 5, 4]
-  },
-  "0x030103": {
-    "titulo": "El pecado",
-    "duracion": { "horas": 0, "minutos": 37, "segundos": 0 },
-    "descripcion": "Se enfrenta a una decisión moral después de entregar al niño.",
-    "calificaciones": [5, 5, 5]
-  },
-  "0x030201": {
-    "titulo": "El Mariscal",
-    "duracion": { "horas": 0, "minutos": 50, "segundos": 0 },
-    "descripcion": "Din Djarin busca a otros mandalorianos en Tatooine.",
-    "calificaciones": [5, 4, 4, 5]
-  },
-  "0x030202": {
-    "titulo": "La pasajera",
-    "duracion": { "horas": 0, "minutos": 42, "segundos": 0 },
-    "descripcion": "Ayuda a una pasajera con una misión peligrosa a través del espacio.",
-    "calificaciones": [4, 3, 4]
-  },
-  "0x030203": {
-    "titulo": "La heredera",
-    "duracion": { "horas": 0, "minutos": 35, "segundos": 0 },
-    "descripcion": "Encuentra a más mandalorianos y descubre verdades ocultas.",
-    "calificaciones": [5, 5, 4]
-  },
-
-  "0x040000": {
-    "titulo": "Breaking Bad",
-    "genero": "Drama",
-    "descripcion": "Un profesor de química se convierte en fabricante de metanfetamina después de ser diagnosticado con cáncer terminal."
-  },
-  "0x040101": {
-    "titulo": "Piloto",
-    "duracion": { "horas": 0, "minutos": 58, "segundos": 0 },
-    "descripcion": "Walter White recibe una noticia devastadora y toma una decisión radical.",
-    "calificaciones": [5, 5, 5, 5]
-  },
-  "0x040102": {
-    "titulo": "El gato está en la bolsa",
-    "duracion": { "horas": 0, "minutos": 48, "segundos": 0 },
-    "descripcion": "Walt y Jesse lidian con las consecuencias de su primer cocinado.",
-    "calificaciones": [5, 4, 5]
-  },
-  "0x040103": {
-    "titulo": "Y el gato salió",
-    "duracion": { "horas": 0, "minutos": 47, "segundos": 0 },
-    "descripcion": "Surgen tensiones mientras tratan de cubrir sus huellas.",
-    "calificaciones": [4, 5, 4]
-  },
-  "0x040201": {
-    "titulo": "Seven Thirty-Seven",
-    "duracion": { "horas": 0, "minutos": 47, "segundos": 0 },
-    "descripcion": "Walter calcula cuánto necesita ganar antes de morir.",
-    "calificaciones": [5, 5, 4, 4]
-  },
-  "0x040202": {
-    "titulo": "Grilled",
-    "duracion": { "horas": 0, "minutos": 48, "segundos": 0 },
-    "descripcion": "Walter y Jesse enfrentan una situación de vida o muerte.",
-    "calificaciones": [5, 5, 5]
-  },
-  "0x040203": {
-    "titulo": "Bit by a Dead Bee",
-    "duracion": { "horas": 0, "minutos": 46, "segundos": 0 },
-    "descripcion": "Walt y Jesse intentan mantener sus coartadas.",
-    "calificaciones": [4, 5, 4]
-  },
-
-  "0x050000": {
-    "titulo": "La Casa de Papel",
-    "genero": "Suspenso",
-    "descripcion": "Un grupo de criminales, liderados por 'El Profesor', planea el mayor atraco de la historia a la Fábrica Nacional de Moneda y Timbre."
-  },
-  "0x050101": {
-    "titulo": "Doce rehenes",
-    "duracion": { "horas": 0, "minutos": 47, "segundos": 0 },
-    "descripcion": "El atraco comienza y los atracadores toman rehenes mientras El Profesor guía desde fuera.",
-    "calificaciones": [5, 4, 5]
-  },
-  "0x050102": {
-    "titulo": "Negociaciones",
-    "duracion": { "horas": 0, "minutos": 50, "segundos": 0 },
-    "descripcion": "La policía intenta negociar mientras los atracadores ejecutan el plan paso a paso.",
-    "calificaciones": [4, 5, 4]
-  },
-  "0x050103": {
-    "titulo": "La imprenta",
-    "duracion": { "horas": 0, "minutos": 48, "segundos": 0 },
-    "descripcion": "Empieza la impresión del dinero, pero surgen tensiones internas.",
-    "calificaciones": [5, 5, 5]
-  },
-  "0x050201": {
-    "titulo": "La traición",
-    "duracion": { "horas": 0, "minutos": 52, "segundos": 0 },
-    "descripcion": "Uno de los miembros duda del plan y pone todo en riesgo.",
-    "calificaciones": [4, 5, 5]
-  },
-  "0x050202": {
-    "titulo": "Plan B",
-    "duracion": { "horas": 0, "minutos": 49, "segundos": 0 },
-    "descripcion": "El Profesor activa su estrategia alternativa mientras la policía se acerca.",
-    "calificaciones": [5, 5, 4]
-  },
-  "0x050203": {
-    "titulo": "Salida de emergencia",
-    "duracion": { "horas": 0, "minutos": 51, "segundos": 0 },
-    "descripcion": "El grupo intenta escapar con el botín en medio del caos.",
-    "calificaciones": [5, 5, 5]
-  },
-
-  "0x060000": {
-    "titulo": "Bob Esponja",
-    "genero": "Animación",
-    "descripcion": "Las aventuras de Bob Esponja, una esponja marina optimista que vive en Fondo de Bikini junto a sus peculiares amigos."
-  },
-  "0x060101": {
-    "titulo": "Ayudante de cocina",
-    "duracion": { "horas": 0, "minutos": 11, "segundos": 0 },
-    "descripcion": "Bob Esponja consigue su trabajo soñado en el Crustáceo Cascarudo.",
-    "calificaciones": [5, 4, 5]
-  },
-  "0x060102": {
-    "titulo": "El vecindario perfecto",
-    "duracion": { "horas": 0, "minutos": 11, "segundos": 0 },
-    "descripcion": "Calamardo intenta mejorar su vida mientras Bob Esponja y Patricio le arruinan los planes.",
-    "calificaciones": [4, 5, 4]
-  },
-  "0x060103": {
-    "titulo": "El plan de Plankton",
-    "duracion": { "horas": 0, "minutos": 11, "segundos": 0 },
-    "descripcion": "Plankton intenta robar la fórmula secreta de las Cangreburguers una vez más.",
-    "calificaciones": [5, 5, 5]
-  },
-  "0x060201": {
-    "titulo": "Club de medusas",
-    "duracion": { "horas": 0, "minutos": 12, "segundos": 0 },
-    "descripcion": "Bob Esponja y Patricio se obsesionan con cazar medusas.",
-    "calificaciones": [5, 4, 5]
-  },
-  "0x060202": {
-    "titulo": "Cangreburgers infinitas",
-    "duracion": { "horas": 0, "minutos": 12, "segundos": 0 },
-    "descripcion": "Don Cangrejo intenta que Bob trabaje sin descanso produciendo Cangreburgers.",
-    "calificaciones": [4, 5, 5]
-  },
-  "0x060203": {
-    "titulo": "Día de limpieza",
-    "duracion": { "horas": 0, "minutos": 12, "segundos": 0 },
-    "descripcion": "Fondo de Bikini celebra su día anual de limpieza con resultados caóticos.",
-    "calificaciones": [5, 4, 4]
-  },
-
-  "0xFF0001": {
-    "titulo": "Duna Parte Dos",
-    "genero": "Ciencia Ficción",
-    "duracion": { "horas": 2, "minutos": 46, "segundos": 0 },
-    "descripcion": "Paul Atreides se une a Chani y a los Fremen mientras busca venganza contra los conspiradores que destruyeron a su familia.",
-    "calificaciones": [5, 5, 4, 5, 5]
-  },
-  "0xFF0002": {
-    "titulo": "Intensamente 2",
-    "genero": "Animación",
-    "duracion": { "horas": 1, "minutos": 36, "segundos": 0 },
-    "descripcion": "Riley experimenta nuevas emociones como Ansiedad, Envidia, Ennui y Vergüenza al entrar en la adolescencia.",
-    "calificaciones": [5, 4, 5, 5]
-  },
-  "0xFF0003": {
-    "titulo": "Deadpool y Wolverine",
-    "genero": "Acción",
-    "duracion": { "horas": 2, "minutos": 7, "segundos": 0 },
-    "descripcion": "Deadpool y Wolverine se unen en una aventura para salvar el multiverso.",
-    "calificaciones": []
-  },
-  "0xFF0004": {
-    "titulo": "La Casa del Dragón",
-    "genero": "Fantasía",
-    "duracion": { "horas": 1, "minutos": 0, "segundos": 0 },
-    "descripcion": "La historia de la Casa Targaryen y los eventos que llevaron a la guerra civil conocida como la Danza de los Dragones.",
-    "calificaciones": [5, 4, 5, 4, 5, 3, 3]
-  },
-  "0xFF0005": {
-    "titulo": "Arcane",
-    "genero": "Animación",
-    "duracion": { "horas": 0, "minutos": 40, "segundos": 0 },
-    "descripcion": "En la utópica Piltover y la oprimida Zaun, dos hermanas, Jinx y Vi, se encuentran en lados opuestos de una guerra creciente.",
-    "calificaciones": [5, 5, 5, 5, 4]
-  },
-  "0xFF0006": {
-    "titulo": "El Señor de los Anillos- Los Anillos de Poder",
-    "genero": "Fantasía",
-    "duracion": { "horas": 1, "minutos": 10, "segundos": 0 },
-    "descripcion": "Ambientada miles de años antes de los eventos de 'El Hobbit' y 'El Señor de los Anillos', sigue a personajes que enfrentan el resurgimiento del mal en la Tierra Media.",
-    "calificaciones": [5, 5, 4, 5]
-  }
+	"0x10000" : 
+	{
+		"capitulos" : 
+		[
+			{
+				"calificaciones" : 
+				[
+					4.0,
+					5.0,
+					3.0,
+					4.0
+				],
+				"descripcion" : "David, un joven talentoso pero impulsivo, lucha por sobrevivir como un edgerunner, un mercenario que realiza trabajos ilegales.",
+				"duracion" : 
+				{
+					"horas" : 0,
+					"minutos" : 30,
+					"segundos" : 0
+				},
+				"titulo" : "El primer d\u00eda de la escuela"
+			},
+			{
+				"calificaciones" : 
+				[
+					5.0,
+					4.0,
+					4.0
+				],
+				"descripcion" : "David experimenta el lado m\u00e1s brutal de la medicina privada en Night City.",
+				"duracion" : 
+				{
+					"horas" : 0,
+					"minutos" : 28,
+					"segundos" : 0
+				},
+				"titulo" : "Trauma Team"
+			},
+			{
+				"calificaciones" : 
+				[
+					5.0,
+					5.0,
+					4.0
+				],
+				"descripcion" : "David comienza su entrenamiento como edgerunner con Lucy y su equipo.",
+				"duracion" : 
+				{
+					"horas" : 0,
+					"minutos" : 31,
+					"segundos" : 0
+				},
+				"titulo" : "Smooth Criminal"
+			},
+			{
+				"calificaciones" : 
+				[
+					4.0,
+					4.0,
+					5.0
+				],
+				"descripcion" : "Con una nueva reputaci\u00f3n, David lidera misiones m\u00e1s peligrosas en Night City.",
+				"duracion" : 
+				{
+					"horas" : 0,
+					"minutos" : 32,
+					"segundos" : 0
+				},
+				"titulo" : "Vuelvo al ruedo"
+			},
+			{
+				"calificaciones" : 
+				[
+					5.0,
+					5.0,
+					5.0
+				],
+				"descripcion" : "La banda es acechada por fuerzas que operan desde las sombras.",
+				"duracion" : 
+				{
+					"horas" : 0,
+					"minutos" : 29,
+					"segundos" : 0
+				},
+				"titulo" : "En la mira"
+			},
+			{
+				"calificaciones" : 
+				[
+					5.0,
+					4.0,
+					5.0
+				],
+				"descripcion" : "David comienza a sentir los efectos de las cibermejoras mientras el peligro se intensifica.",
+				"duracion" : 
+				{
+					"horas" : 0,
+					"minutos" : 34,
+					"segundos" : 0
+				},
+				"titulo" : "Cyberpsicosis"
+			}
+		],
+		"descripcion" : "En un mundo dist\u00f3pico, un grupo de mercenarios lucha por sobrevivir en la ciudad de Night City.",
+		"genero" : "Animaci\u00f3n",
+		"titulo" : "Cyberpunk 2077: Edgerunners"
+	},
+	"0x20000" : 
+	{
+		"capitulos" : 
+		[
+			{
+				"calificaciones" : 
+				[
+					5.0,
+					4.0,
+					5.0,
+					5.0
+				],
+				"descripcion" : "Will desaparece misteriosamente y su madre comienza una b\u00fasqueda desesperada.",
+				"duracion" : 
+				{
+					"horas" : 0,
+					"minutos" : 47,
+					"segundos" : 0
+				},
+				"titulo" : "El Desvanecimiento de Will"
+			},
+			{
+				"calificaciones" : 
+				[
+					4.0,
+					5.0,
+					4.0
+				],
+				"descripcion" : "Los chicos encuentran a una ni\u00f1a con poderes ps\u00edquicos.",
+				"duracion" : 
+				{
+					"horas" : 0,
+					"minutos" : 50,
+					"segundos" : 0
+				},
+				"titulo" : "La ni\u00f1a del bosque"
+			},
+			{
+				"calificaciones" : 
+				[
+					5.0,
+					5.0,
+					5.0
+				],
+				"descripcion" : "Joyce intenta comunicarse con Will a trav\u00e9s de luces navide\u00f1as.",
+				"duracion" : 
+				{
+					"horas" : 0,
+					"minutos" : 51,
+					"segundos" : 0
+				},
+				"titulo" : "Luces de Navidad"
+			},
+			{
+				"calificaciones" : 
+				[
+					4.0,
+					4.0,
+					5.0
+				],
+				"descripcion" : "Un nuevo estudiante y un arcade misterioso alteran la din\u00e1mica del grupo.",
+				"duracion" : 
+				{
+					"horas" : 0,
+					"minutos" : 50,
+					"segundos" : 0
+				},
+				"titulo" : "Mad Max en Hawkins"
+			},
+			{
+				"calificaciones" : 
+				[
+					5.0,
+					4.0,
+					4.0
+				],
+				"descripcion" : "Dustin hace un descubrimiento extra\u00f1o en su casa.",
+				"duracion" : 
+				{
+					"horas" : 0,
+					"minutos" : 49,
+					"segundos" : 0
+				},
+				"titulo" : "El monstruo en el cubo de basura"
+			},
+			{
+				"calificaciones" : 
+				[
+					4.0,
+					5.0,
+					5.0
+				],
+				"descripcion" : "Will tiene visiones perturbadoras mientras el laboratorio investiga el inframundo.",
+				"duracion" : 
+				{
+					"horas" : 0,
+					"minutos" : 48,
+					"segundos" : 0
+				},
+				"titulo" : "El esp\u00eda"
+			}
+		],
+		"descripcion" : "Cuando un ni\u00f1o desaparece, una peque\u00f1a ciudad descubre un misterio que involucra experimentos secretos, fuerzas sobrenaturales y una ni\u00f1a extra\u00f1a.",
+		"genero" : "Ciencia Ficci\u00f3n",
+		"titulo" : "Stranger Things"
+	},
+	"0x30000" : 
+	{
+		"capitulos" : 
+		[
+			{
+				"calificaciones" : 
+				[
+					5.0,
+					5.0,
+					4.0
+				],
+				"descripcion" : "Un misterioso guerrero acepta una misi\u00f3n que lo cambia todo.",
+				"duracion" : 
+				{
+					"horas" : 0,
+					"minutos" : 39,
+					"segundos" : 0
+				},
+				"titulo" : "El Mandaloriano"
+			},
+			{
+				"calificaciones" : 
+				[
+					4.0,
+					5.0,
+					4.0
+				],
+				"descripcion" : "El Mandaloriano debe proteger a un infante con habilidades inusuales.",
+				"duracion" : 
+				{
+					"horas" : 0,
+					"minutos" : 32,
+					"segundos" : 0
+				},
+				"titulo" : "El ni\u00f1o"
+			},
+			{
+				"calificaciones" : 
+				[
+					5.0,
+					5.0,
+					5.0
+				],
+				"descripcion" : "Se enfrenta a una decisi\u00f3n moral despu\u00e9s de entregar al ni\u00f1o.",
+				"duracion" : 
+				{
+					"horas" : 0,
+					"minutos" : 37,
+					"segundos" : 0
+				},
+				"titulo" : "El pecado"
+			},
+			{
+				"calificaciones" : 
+				[
+					5.0,
+					4.0,
+					4.0,
+					5.0
+				],
+				"descripcion" : "Din Djarin busca a otros mandalorianos en Tatooine.",
+				"duracion" : 
+				{
+					"horas" : 0,
+					"minutos" : 50,
+					"segundos" : 0
+				},
+				"titulo" : "El Mariscal"
+			},
+			{
+				"calificaciones" : 
+				[
+					4.0,
+					3.0,
+					4.0
+				],
+				"descripcion" : "Ayuda a una pasajera con una misi\u00f3n peligrosa a trav\u00e9s del espacio.",
+				"duracion" : 
+				{
+					"horas" : 0,
+					"minutos" : 42,
+					"segundos" : 0
+				},
+				"titulo" : "La pasajera"
+			},
+			{
+				"calificaciones" : 
+				[
+					5.0,
+					5.0,
+					4.0
+				],
+				"descripcion" : "Encuentra a m\u00e1s mandalorianos y descubre verdades ocultas.",
+				"duracion" : 
+				{
+					"horas" : 0,
+					"minutos" : 35,
+					"segundos" : 0
+				},
+				"titulo" : "La heredera"
+			}
+		],
+		"descripcion" : "Un cazarrecompensas solitario recorre los confines de la galaxia lejos de la autoridad de la Nueva Rep\u00fablica.",
+		"genero" : "Acci\u00f3n",
+		"titulo" : "The Mandalorian"
+	},
+	"0x40000" : 
+	{
+		"capitulos" : 
+		[
+			{
+				"calificaciones" : 
+				[
+					5.0,
+					5.0,
+					5.0,
+					5.0
+				],
+				"descripcion" : "Walter White recibe una noticia devastadora y toma una decisi\u00f3n radical.",
+				"duracion" : 
+				{
+					"horas" : 0,
+					"minutos" : 58,
+					"segundos" : 0
+				},
+				"titulo" : "Piloto"
+			},
+			{
+				"calificaciones" : 
+				[
+					5.0,
+					4.0,
+					5.0
+				],
+				"descripcion" : "Walt y Jesse lidian con las consecuencias de su primer cocinado.",
+				"duracion" : 
+				{
+					"horas" : 0,
+					"minutos" : 48,
+					"segundos" : 0
+				},
+				"titulo" : "El gato est\u00e1 en la bolsa"
+			},
+			{
+				"calificaciones" : 
+				[
+					4.0,
+					5.0,
+					4.0
+				],
+				"descripcion" : "Surgen tensiones mientras tratan de cubrir sus huellas.",
+				"duracion" : 
+				{
+					"horas" : 0,
+					"minutos" : 47,
+					"segundos" : 0
+				},
+				"titulo" : "Y el gato sali\u00f3"
+			},
+			{
+				"calificaciones" : 
+				[
+					5.0,
+					5.0,
+					4.0,
+					4.0
+				],
+				"descripcion" : "Walter calcula cu\u00e1nto necesita ganar antes de morir.",
+				"duracion" : 
+				{
+					"horas" : 0,
+					"minutos" : 47,
+					"segundos" : 0
+				},
+				"titulo" : "Seven Thirty-Seven"
+			},
+			{
+				"calificaciones" : 
+				[
+					5.0,
+					5.0,
+					5.0
+				],
+				"descripcion" : "Walter y Jesse enfrentan una situaci\u00f3n de vida o muerte.",
+				"duracion" : 
+				{
+					"horas" : 0,
+					"minutos" : 48,
+					"segundos" : 0
+				},
+				"titulo" : "Grilled"
+			},
+			{
+				"calificaciones" : 
+				[
+					4.0,
+					5.0,
+					4.0
+				],
+				"descripcion" : "Walt y Jesse intentan mantener sus coartadas.",
+				"duracion" : 
+				{
+					"horas" : 0,
+					"minutos" : 46,
+					"segundos" : 0
+				},
+				"titulo" : "Bit by a Dead Bee"
+			}
+		],
+		"descripcion" : "Un profesor de qu\u00edmica se convierte en fabricante de metanfetamina despu\u00e9s de ser diagnosticado con c\u00e1ncer terminal.",
+		"genero" : "Drama",
+		"titulo" : "Breaking Bad"
+	},
+	"0x50000" : 
+	{
+		"capitulos" : 
+		[
+			{
+				"calificaciones" : 
+				[
+					5.0,
+					4.0,
+					5.0
+				],
+				"descripcion" : "El atraco comienza y los atracadores toman rehenes mientras El Profesor gu\u00eda desde fuera.",
+				"duracion" : 
+				{
+					"horas" : 0,
+					"minutos" : 47,
+					"segundos" : 0
+				},
+				"titulo" : "Doce rehenes"
+			},
+			{
+				"calificaciones" : 
+				[
+					4.0,
+					5.0,
+					4.0
+				],
+				"descripcion" : "La polic\u00eda intenta negociar mientras los atracadores ejecutan el plan paso a paso.",
+				"duracion" : 
+				{
+					"horas" : 0,
+					"minutos" : 50,
+					"segundos" : 0
+				},
+				"titulo" : "Negociaciones"
+			},
+			{
+				"calificaciones" : 
+				[
+					5.0,
+					5.0,
+					5.0
+				],
+				"descripcion" : "Empieza la impresi\u00f3n del dinero, pero surgen tensiones internas.",
+				"duracion" : 
+				{
+					"horas" : 0,
+					"minutos" : 48,
+					"segundos" : 0
+				},
+				"titulo" : "La imprenta"
+			},
+			{
+				"calificaciones" : 
+				[
+					4.0,
+					5.0,
+					5.0
+				],
+				"descripcion" : "Uno de los miembros duda del plan y pone todo en riesgo.",
+				"duracion" : 
+				{
+					"horas" : 0,
+					"minutos" : 52,
+					"segundos" : 0
+				},
+				"titulo" : "La traici\u00f3n"
+			},
+			{
+				"calificaciones" : 
+				[
+					5.0,
+					5.0,
+					4.0
+				],
+				"descripcion" : "El Profesor activa su estrategia alternativa mientras la polic\u00eda se acerca.",
+				"duracion" : 
+				{
+					"horas" : 0,
+					"minutos" : 49,
+					"segundos" : 0
+				},
+				"titulo" : "Plan B"
+			},
+			{
+				"calificaciones" : 
+				[
+					5.0,
+					5.0,
+					5.0
+				],
+				"descripcion" : "El grupo intenta escapar con el bot\u00edn en medio del caos.",
+				"duracion" : 
+				{
+					"horas" : 0,
+					"minutos" : 51,
+					"segundos" : 0
+				},
+				"titulo" : "Salida de emergencia"
+			}
+		],
+		"descripcion" : "Un grupo de criminales, liderados por 'El Profesor', planea el mayor atraco de la historia a la F\u00e1brica Nacional de Moneda y Timbre.",
+		"genero" : "Suspenso",
+		"titulo" : "La Casa de Papel"
+	},
+	"0x60000" : 
+	{
+		"capitulos" : 
+		[
+			{
+				"calificaciones" : 
+				[
+					5.0,
+					4.0,
+					5.0
+				],
+				"descripcion" : "Bob Esponja consigue su trabajo so\u00f1ado en el Crust\u00e1ceo Cascarudo.",
+				"duracion" : 
+				{
+					"horas" : 0,
+					"minutos" : 11,
+					"segundos" : 0
+				},
+				"titulo" : "Ayudante de cocina"
+			},
+			{
+				"calificaciones" : 
+				[
+					4.0,
+					5.0,
+					4.0
+				],
+				"descripcion" : "Calamardo intenta mejorar su vida mientras Bob Esponja y Patricio le arruinan los planes.",
+				"duracion" : 
+				{
+					"horas" : 0,
+					"minutos" : 11,
+					"segundos" : 0
+				},
+				"titulo" : "El vecindario perfecto"
+			},
+			{
+				"calificaciones" : 
+				[
+					5.0,
+					5.0,
+					5.0
+				],
+				"descripcion" : "Plankton intenta robar la f\u00f3rmula secreta de las Cangreburguers una vez m\u00e1s.",
+				"duracion" : 
+				{
+					"horas" : 0,
+					"minutos" : 11,
+					"segundos" : 0
+				},
+				"titulo" : "El plan de Plankton"
+			},
+			{
+				"calificaciones" : 
+				[
+					5.0,
+					4.0,
+					5.0
+				],
+				"descripcion" : "Bob Esponja y Patricio se obsesionan con cazar medusas.",
+				"duracion" : 
+				{
+					"horas" : 0,
+					"minutos" : 12,
+					"segundos" : 0
+				},
+				"titulo" : "Club de medusas"
+			},
+			{
+				"calificaciones" : 
+				[
+					4.0,
+					5.0,
+					5.0
+				],
+				"descripcion" : "Don Cangrejo intenta que Bob trabaje sin descanso produciendo Cangreburgers.",
+				"duracion" : 
+				{
+					"horas" : 0,
+					"minutos" : 12,
+					"segundos" : 0
+				},
+				"titulo" : "Cangreburgers infinitas"
+			},
+			{
+				"calificaciones" : 
+				[
+					5.0,
+					4.0,
+					4.0
+				],
+				"descripcion" : "Fondo de Bikini celebra su d\u00eda anual de limpieza con resultados ca\u00f3ticos.",
+				"duracion" : 
+				{
+					"horas" : 0,
+					"minutos" : 12,
+					"segundos" : 0
+				},
+				"titulo" : "D\u00eda de limpieza"
+			}
+		],
+		"descripcion" : "Las aventuras de Bob Esponja, una esponja marina optimista que vive en Fondo de Bikini junto a sus peculiares amigos.",
+		"genero" : "Animaci\u00f3n",
+		"titulo" : "Bob Esponja"
+	},
+	"0xFF0001" : 
+	{
+		"calificaciones" : 
+		[
+			5.0,
+			5.0,
+			4.0,
+			5.0,
+			5.0,
+			5.0
+		],
+		"descripcion" : "Paul Atreides se une a Chani y a los Fremen mientras busca venganza contra los conspiradores que destruyeron a su familia.",
+		"duracion" : 
+		{
+			"horas" : 2,
+			"minutos" : 46,
+			"segundos" : 0
+		},
+		"genero" : "Ciencia Ficci\u00f3n",
+		"titulo" : "Duna Parte Dos"
+	},
+	"0xFF0002" : 
+	{
+		"calificaciones" : 
+		[
+			5.0,
+			4.0,
+			5.0,
+			5.0
+		],
+		"descripcion" : "Riley experimenta nuevas emociones como Ansiedad, Envidia, Ennui y Verg\u00fcenza al entrar en la adolescencia.",
+		"duracion" : 
+		{
+			"horas" : 1,
+			"minutos" : 36,
+			"segundos" : 0
+		},
+		"genero" : "Animaci\u00f3n",
+		"titulo" : "Intensamente 2"
+	},
+	"0xFF0003" : 
+	{
+		"descripcion" : "Deadpool y Wolverine se unen en una aventura para salvar el multiverso.",
+		"duracion" : 
+		{
+			"horas" : 2,
+			"minutos" : 7,
+			"segundos" : 0
+		},
+		"genero" : "Acci\u00f3n",
+		"titulo" : "Deadpool y Wolverine"
+	},
+	"0xFF0004" : 
+	{
+		"calificaciones" : 
+		[
+			5.0,
+			4.0,
+			5.0,
+			4.0,
+			5.0
+		],
+		"descripcion" : "La historia de la Casa Targaryen y los eventos que llevaron a la guerra civil conocida como la Danza de los Dragones.",
+		"duracion" : 
+		{
+			"horas" : 1,
+			"minutos" : 0,
+			"segundos" : 0
+		},
+		"genero" : "Fantas\u00eda",
+		"titulo" : "La Casa del Drag\u00f3n"
+	},
+	"0xFF0005" : 
+	{
+		"calificaciones" : 
+		[
+			5.0,
+			5.0,
+			5.0,
+			5.0,
+			4.0
+		],
+		"descripcion" : "En la ut\u00f3pica Piltover y la oprimida Zaun, dos hermanas, Jinx y Vi, se encuentran en lados opuestos de una guerra creciente.",
+		"duracion" : 
+		{
+			"horas" : 0,
+			"minutos" : 40,
+			"segundos" : 0
+		},
+		"genero" : "Animaci\u00f3n",
+		"titulo" : "Arcane"
+	},
+	"0xFF0006" : 
+	{
+		"calificaciones" : 
+		[
+			5.0,
+			5.0,
+			4.0,
+			5.0
+		],
+		"descripcion" : "Ambientada miles de a\u00f1os antes de los eventos de 'El Hobbit' y 'El Se\u00f1or de los Anillos', sigue a personajes que enfrentan el resurgimiento del mal en la Tierra Media.",
+		"duracion" : 
+		{
+			"horas" : 1,
+			"minutos" : 10,
+			"segundos" : 0
+		},
+		"genero" : "Fantas\u00eda",
+		"titulo" : "El Se\u00f1or de los Anillos- Los Anillos de Poder"
+	}
 }

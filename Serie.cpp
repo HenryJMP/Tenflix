@@ -45,11 +45,22 @@ void Serie::mostrarInformacion() const {
     std::cout << "Descripción: " << descripcion << std::endl;
     std::cout << "Calificacion: ";
     double suma = 0.0;
-    for (const auto& calificacion : calificaciones) {
-        suma += calificacion;
+    std::vector<double> promediosCapitulos;
+    for (const auto& capitulo : capitulos) {
+        const auto& califs = capitulo.getCalificaciones();
+        double sumaCap = 0.0;
+        for (double calif : califs) {
+            sumaCap += calif;
+        }
+        double promedioCap = califs.empty() ? 0.0 : sumaCap / califs.size();
+        promediosCapitulos.push_back(promedioCap);
     }
-    double promedio = calificaciones.empty() ? 0.0 : suma / calificaciones.size();
-    std::cout << promedio << std::endl;
+    double sumaPromedios = 0.0;
+    for (double prom : promediosCapitulos) {
+        sumaPromedios += prom;
+    }
+    double promedioSerie = promediosCapitulos.empty() ? 0.0 : sumaPromedios / promediosCapitulos.size();
+    std::cout << promedioSerie << std::endl;
     std::cout << "----------------------------------------" << std::endl;
 }
 

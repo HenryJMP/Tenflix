@@ -3,6 +3,7 @@
 
 class Serie {
     public:
+        std::vector<Cap> capitulos;
         // Constructor
         Serie(uint32_t _id, std::string _nombre, int _id_serie, std::string _genero, std::string _descripcion, std::vector<double> _calificaciones, std::vector<Cap>);
         // Destructor
@@ -17,7 +18,6 @@ class Serie {
         Cap getCapitulo(int) const;
         // Método para mostrar información
         void mostrarInformacion() const;
-        std::vector<Cap> capitulos;
 
     protected:
         std::vector<double> calificaciones;
