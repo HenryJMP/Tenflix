@@ -79,48 +79,48 @@ void CrearObjetos(const std::vector<std::string>& claves, const Json::Value& act
         }
     }
 }
-
 void guardarJSON(const std::vector<Pelis>& peliculas, const std::vector<Serie>& series) {
+    std::ifstream archivo_lectura("Contenido.json");
     Json::Value root;
-    for (const auto& pelicula : peliculas) {
-        Json::Value peliJson;
-        peliJson["titulo"] = pelicula.getNombre();
-        peliJson["genero"] = pelicula.getGenero();
-        peliJson["duracion"]["horas"] = pelicula.getHoras();
-        peliJson["duracion"]["minutos"] = pelicula.getMinutos();
-        peliJson["duracion"]["segundos"] = pelicula.getSegundos();
-        peliJson["descripcion"] = pelicula.getDescripcion();
-        for (const auto& calif : pelicula.getCalificaciones()) {
-            peliJson["calificaciones"].append(calif);
+    if (archivo_lectura.is_open()) {
+        Json::CharReaderBuilder builder;
+        std::string errores;
+        if (!Json::parseFromStream(builder, archivo_lectura, &root, &errores)) {
+            std::cerr << "Error al parsear JSON para guardar: " << errores << std::endl;
+            archivo_lectura.close();
+            return;
         }
-        // Guardar el id en formato hexadecimal con 0x al principio
+        archivo_lectura.close();
+    } else {
+        std::cerr << "Error al abrir Contenido.json para lectura" << std::endl;
+        return;
+    }
+
+    for (const auto& pelicula : peliculas) {
         std::stringstream ss;
-        ss << "0x" << std::hex << std::uppercase << pelicula.getId();
-        root[ss.str()] = peliJson;
+        ss << "0x" << std::hex << std::setw(6) << std::setfill('0') << std::uppercase << pelicula.getId();
+        std::string clave = ss.str();
+        if (root.isMember(clave)) {
+            root[clave]["calificaciones"].clear();
+            for (const auto& calif : pelicula.getCalificaciones()) {
+                root[clave]["calificaciones"].append(calif);
+            }
+        }
     }
 
     for (const auto& serie : series) {
-        Json::Value serieJson;
-        serieJson["titulo"] = serie.getNombre();
-        serieJson["genero"] = serie.getGenero();
-        serieJson["descripcion"] = serie.getDescripcion();
         for (const auto& capitulo : serie.capitulos) {
-            Json::Value capJson;
-            capJson["titulo"] = capitulo.getNombre();
-            capJson["duracion"]["horas"] = capitulo.getHoras();
-            capJson["duracion"]["minutos"] = capitulo.getMinutos();
-            capJson["duracion"]["segundos"] = capitulo.getSegundos();
-            capJson["descripcion"] = capitulo.getDescripcion();
-            for (const auto& calif : capitulo.getCalificaciones()) {
-                capJson["calificaciones"].append(calif);
+            std::stringstream ss;
+            ss << "0x" << std::hex << std::setw(6) << std::setfill('0') << std::uppercase << capitulo.getId();
+            std::string clave = ss.str();
+            if (root.isMember(clave)) {
+                root[clave]["calificaciones"].clear();
+                for (const auto& calif : capitulo.getCalificaciones()) {
+                    root[clave]["calificaciones"].append(calif);
+                }
             }
-            serieJson["capitulos"].append(capJson);
         }
-        std::stringstream ss;
-        ss << "0x" << std::hex << std::uppercase << serie.getId();
-        root[ss.str()] = serieJson;
     }
-
     std::ofstream archivo("Contenido.json");
     if (!archivo.is_open()) {
         std::cerr << "Error al abrir el archivo para guardar" << std::endl;
@@ -172,8 +172,33 @@ int main() {
             }
             case 2: {
                 system("clear");
-                for (const auto& serie : series) {
-                    serie.mostrarInformacion();
+                if (series.empty()) {
+                    std::cout << "No hay series disponibles." << std::endl;
+                } else {
+                    for (const auto& serie : series) {
+                        serie.mostrarInformacion();
+                    }
+                    std::cout << "Seleccione el número de la serie para ver sus capítulos:" << std::endl;
+                    for (size_t i = 0; i < series.size(); ++i) {
+                        std::cout << i + 1 << ". " << series[i].getNombre() << std::endl;
+                    }
+                    size_t seleccion;
+                    std::cout << "Ingrese el número de la serie: ";
+                    std::cin >> seleccion;
+                    if (seleccion > 0 && seleccion <= series.size()) {
+                        system("clear");
+                        std::cout << "Capítulos de la serie \"" << series[seleccion - 1].getNombre() << "\":" << std::endl;
+                        const auto& capitulos = series[seleccion - 1].capitulos;
+                        if (capitulos.empty()) {
+                            std::cout << "No hay capítulos disponibles para esta serie." << std::endl;
+                        } else {
+                            for (const auto& capitulo : capitulos) {
+                                capitulo.mostrarInformacion();
+                            }
+                        }
+                    } else {
+                        std::cout << "Selección inválida." << std::endl;
+                    }
                 }
                 std::cin.ignore();
                 std::cout << "Presiona enter para continuar...";
