@@ -3,7 +3,7 @@
 	{
 		"descripcion" : "En un mundo dist\u00f3pico, un grupo de mercenarios lucha por sobrevivir en la ciudad de Night City.",
 		"genero" : "Animaci\u00f3n",
-		"titulo" : "Cyberpunk 2077: Edgerunners"
+		"titulo" : "Cyberpunk 2077- Edgerunners"
 	},
 	"0x010101" : 
 	{
@@ -14,7 +14,8 @@
 			3.0,
 			4.0,
 			4.0,
-			1.0
+			1.0,
+			2.0
 		],
 		"descripcion" : "David, un joven talentoso pero impulsivo, lucha por sobrevivir como un edgerunner, un mercenario que realiza trabajos ilegales.",
 		"duracion" : 
@@ -31,7 +32,8 @@
 		[
 			5.0,
 			4.0,
-			4.0
+			4.0,
+			1.0
 		],
 		"descripcion" : "David experimenta el lado m\u00e1s brutal de la medicina privada en Night City.",
 		"duracion" : 
@@ -48,7 +50,8 @@
 		[
 			5.0,
 			5.0,
-			4.0
+			4.0,
+			1.0
 		],
 		"descripcion" : "David comienza su entrenamiento como edgerunner con Lucy y su equipo.",
 		"duracion" : 
@@ -141,6 +144,7 @@
 			4.0,
 			5.0,
 			4.0,
+			1.0,
 			1.0
 		],
 		"descripcion" : "Los chicos encuentran a una ni\u00f1a con poderes ps\u00edquicos.",
@@ -1100,7 +1104,9 @@
 			4.0,
 			5.0,
 			5.0,
-			5.0
+			5.0,
+			2.0,
+			1.0
 		],
 		"descripcion" : "Una familia es aterrorizada por una presencia oscura en su casa, por lo que recurren a dos investigadores paranormales.",
 		"duracion" : 
@@ -1133,7 +1139,13 @@
 	},
 	"0xFF0003" : 
 	{
-		"calificaciones" : [],
+		"calificaciones" : 
+		[
+			5.0,
+			3.0,
+			2.0,
+			4.0
+		],
 		"descripcion" : "Deadpool y Wolverine se unen en una aventura para salvar el multiverso.",
 		"duracion" : 
 		{
@@ -1152,7 +1164,8 @@
 			4.0,
 			5.0,
 			4.0,
-			5.0
+			5.0,
+			1.0
 		],
 		"descripcion" : "Un grupo de soldados jud\u00edos planea asesinar a l\u00edderes nazis en la Francia ocupada, mientras una joven busca vengar la muerte de su familia.",
 		"duracion" : 
