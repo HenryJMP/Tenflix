@@ -13,7 +13,8 @@
 			5.0,
 			3.0,
 			4.0,
-			3.0
+			4.0,
+			1.0
 		],
 		"descripcion" : "David, un joven talentoso pero impulsivo, lucha por sobrevivir como un edgerunner, un mercenario que realiza trabajos ilegales.",
 		"duracion" : 
@@ -139,7 +140,8 @@
 		[
 			4.0,
 			5.0,
-			4.0
+			4.0,
+			1.0
 		],
 		"descripcion" : "Los chicos encuentran a una ni\u00f1a con poderes ps\u00edquicos.",
 		"duracion" : 
@@ -173,7 +175,8 @@
 		[
 			4.0,
 			4.0,
-			5.0
+			5.0,
+			1.0
 		],
 		"descripcion" : "Un nuevo estudiante y un arcade misterioso alteran la din\u00e1mica del grupo.",
 		"duracion" : 
@@ -207,7 +210,8 @@
 		[
 			4.0,
 			5.0,
-			5.0
+			5.0,
+			1.0
 		],
 		"descripcion" : "Will tiene visiones perturbadoras mientras el laboratorio investiga el inframundo.",
 		"duracion" : 
@@ -247,7 +251,8 @@
 		[
 			4.0,
 			5.0,
-			4.0
+			4.0,
+			1.0
 		],
 		"descripcion" : "El Mandaloriano debe proteger a un infante con habilidades inusuales.",
 		"duracion" : 
@@ -574,7 +579,8 @@
 		[
 			4.0,
 			5.0,
-			4.0
+			4.0,
+			1.0
 		],
 		"descripcion" : "Calamardo intenta mejorar su vida mientras Bob Esponja y Patricio le arruinan los planes.",
 		"duracion" : 
@@ -583,7 +589,7 @@
 			"minutos" : 11,
 			"segundos" : 0
 		},
-		"titulo" : "El vecindario perfecto"
+		"titulo" : "El para\u00edso de Calamardo"
 	},
 	"0x060103" : 
 	{
@@ -653,6 +659,438 @@
 		},
 		"titulo" : "D\u00eda de limpieza"
 	},
+	"0x070000" : 
+	{
+		"descripcion" : "Un grupo de personas con deudas aceptan participar en un misterioso juego de supervivencia con desafios infantiles mortales, por la oportunidad de ganar una enorme suma de dinero.",
+		"genero" : "Suspenso",
+		"titulo" : "El juego del calamar"
+	},
+	"0x070101" : 
+	{
+		"calificaciones" : 
+		[
+			5.0,
+			4.0,
+			5.0
+		],
+		"descripcion" : "456 jugadores deben entrar a un juego donde deben jugar luz roja o luz verde para avanzar, pero los perdedores mueren.",
+		"duracion" : 
+		{
+			"horas" : 0,
+			"minutos" : 11,
+			"segundos" : 0
+		},
+		"titulo" : "Luz roja, luz verde"
+	},
+	"0x070102" : 
+	{
+		"calificaciones" : 
+		[
+			4.0,
+			5.0,
+			4.0
+		],
+		"descripcion" : "Los jugadores votan para abandonar el juego, pero la dura realidad exterior los hace reconsiderar su decisi\u00f3n.",
+		"duracion" : 
+		{
+			"horas" : 0,
+			"minutos" : 11,
+			"segundos" : 0
+		},
+		"titulo" : "Infierno"
+	},
+	"0x070103" : 
+	{
+		"calificaciones" : 
+		[
+			5.0,
+			5.0,
+			5.0
+		],
+		"descripcion" : "Los jugadores enfrentan un desaf\u00edo con dulces coreanos, donde la precisi\u00f3n puede ser la diferencia entre la vida y la muerte.",
+		"duracion" : 
+		{
+			"horas" : 0,
+			"minutos" : 11,
+			"segundos" : 0
+		},
+		"titulo" : "El hombre del paraguas"
+	},
+	"0x070201" : 
+	{
+		"calificaciones" : 
+		[
+			5.0,
+			4.0,
+			5.0
+		],
+		"descripcion" : "El juego se torna m\u00e1s brutal y los jugadores comienzan a formar alianzas.",
+		"duracion" : 
+		{
+			"horas" : 0,
+			"minutos" : 12,
+			"segundos" : 0
+		},
+		"titulo" : "Equipo"
+	},
+	"0x070202" : 
+	{
+		"calificaciones" : 
+		[
+			4.0,
+			5.0,
+			5.0
+		],
+		"descripcion" : "Mientras en juego sigue, se revelan secretos sobre los organizadores y algunos jugadores se enfrentan a dilemas morales.",
+		"duracion" : 
+		{
+			"horas" : 0,
+			"minutos" : 12,
+			"segundos" : 0
+		},
+		"titulo" : "Un mundo justo"
+	},
+	"0x070203" : 
+	{
+		"calificaciones" : 
+		[
+			5.0,
+			4.0,
+			4.0
+		],
+		"descripcion" : "Los jugadores deben formar parejas para un nuevo juego, sin saber que competir\u00e1n entre ellos...",
+		"duracion" : 
+		{
+			"horas" : 0,
+			"minutos" : 12,
+			"segundos" : 0
+		},
+		"titulo" : "Gganbu"
+	},
+	"0x080000" : 
+	{
+		"descripcion" : "Un joven cirujano con autismo y s\u00edndrome de Savant, empieza a trabajar en un prestigioso hospital, donde debe demostrar su talento pese a los prejuicios.",
+		"genero" : "Drama m\u00e9dico",
+		"titulo" : "The Good Doctor"
+	},
+	"0x080101" : 
+	{
+		"calificaciones" : 
+		[
+			5.0,
+			4.0,
+			5.0
+		],
+		"descripcion" : "Shaun salva a un ni\u00f1o en el aeropuerto y comienza su primer d\u00eda en el hospital, enfrentando dudas por parte del equipo m\u00e9dico.",
+		"duracion" : 
+		{
+			"horas" : 0,
+			"minutos" : 11,
+			"segundos" : 0
+		},
+		"titulo" : "Burnt Food"
+	},
+	"0x080102" : 
+	{
+		"calificaciones" : 
+		[
+			4.0,
+			5.0,
+			4.0
+		],
+		"descripcion" : "Shaun se esfuerza por adaptarse a la rutina del hospital, mientras lucha por comunicarse con sus colegas.",
+		"duracion" : 
+		{
+			"horas" : 0,
+			"minutos" : 11,
+			"segundos" : 0
+		},
+		"titulo" : "Mount Rushmore"
+	},
+	"0x080103" : 
+	{
+		"calificaciones" : 
+		[
+			5.0,
+			5.0,
+			5.0
+		],
+		"descripcion" : "El equipo debe realizar un trasplante complejo; Shaun se apega emocionalmente a un paciente con una situaci\u00f3n similar a la suya.",
+		"duracion" : 
+		{
+			"horas" : 0,
+			"minutos" : 11,
+			"segundos" : 0
+		},
+		"titulo" : "Oliver"
+	},
+	"0x080201" : 
+	{
+		"calificaciones" : 
+		[
+			5.0,
+			4.0,
+			5.0
+		],
+		"descripcion" : "Shaun cuestiona una decisi\u00f3n m\u00e9dica de sus superiores, lo que crea tensiones, pero tambi\u00e9n lo hace destacar.",
+		"duracion" : 
+		{
+			"horas" : 0,
+			"minutos" : 12,
+			"segundos" : 0
+		},
+		"titulo" : "Pipes"
+	},
+	"0x080202" : 
+	{
+		"calificaciones" : 
+		[
+			4.0,
+			5.0,
+			5.0
+		],
+		"descripcion" : "Shaun conoce a un ni\u00f1o que se parece mucho a su hermano fallecido, mientras enfrenta una dif\u00edcil decisi\u00f3n m\u00e9dica.",
+		"duracion" : 
+		{
+			"horas" : 0,
+			"minutos" : 12,
+			"segundos" : 0
+		},
+		"titulo" : "Point Three Percent"
+	},
+	"0x080203" : 
+	{
+		"calificaciones" : 
+		[
+			5.0,
+			4.0,
+			4.0
+		],
+		"descripcion" : "Un paciente miente sobre sus Shaun y Claire intentan descubrir la verdad.",
+		"duracion" : 
+		{
+			"horas" : 0,
+			"minutos" : 12,
+			"segundos" : 0
+		},
+		"titulo" : "Not Fake"
+	},
+	"0x090000" : 
+	{
+		"descripcion" : "En un pueblo alem\u00e1n, la desaparici\u00f3n de un ni\u00f1o revela oscuros secretos y conexiones entre cuatro familias a trav\u00e9s del tiempo.",
+		"genero" : "Suspenso",
+		"titulo" : "Dark"
+	},
+	"0x090101" : 
+	{
+		"calificaciones" : 
+		[
+			5.0,
+			4.0,
+			5.0
+		],
+		"descripcion" : "Un adolescente desaparece en Winden, desatando una cade de eventos que conectan el presente, pasado y futuro.",
+		"duracion" : 
+		{
+			"horas" : 0,
+			"minutos" : 11,
+			"segundos" : 0
+		},
+		"titulo" : "Secretos"
+	},
+	"0x090102" : 
+	{
+		"calificaciones" : 
+		[
+			4.0,
+			5.0,
+			4.0
+		],
+		"descripcion" : "La polic\u00eda investiga la desaparici\u00f3n, mientras surgen tensiones entre las familias del pueblo.",
+		"duracion" : 
+		{
+			"horas" : 0,
+			"minutos" : 11,
+			"segundos" : 0
+		},
+		"titulo" : "Mentiras"
+	},
+	"0x090103" : 
+	{
+		"calificaciones" : 
+		[
+			5.0,
+			5.0,
+			5.0
+		],
+		"descripcion" : "Jonas descubre una puerta secreta en una cueva que lo lleva al a\u00f1o 1986.",
+		"duracion" : 
+		{
+			"horas" : 0,
+			"minutos" : 11,
+			"segundos" : 0
+		},
+		"titulo" : "Pasado y presente"
+	},
+	"0x090201" : 
+	{
+		"calificaciones" : 
+		[
+			5.0,
+			4.0,
+			5.0
+		],
+		"descripcion" : "Los adultos del pueblo ocultan secretos de su juventud relacionados con otra desaparici\u00f3n antig\u00fca.",
+		"duracion" : 
+		{
+			"horas" : 0,
+			"minutos" : 12,
+			"segundos" : 0
+		},
+		"titulo" : "Doble vida"
+	},
+	"0x090202" : 
+	{
+		"calificaciones" : 
+		[
+			4.0,
+			5.0,
+			5.0
+		],
+		"descripcion" : "Un nuevo cuerpo aparece, y empieza a quedar claro que el tiempo no es lineal en Widen.",
+		"duracion" : 
+		{
+			"horas" : 0,
+			"minutos" : 12,
+			"segundos" : 0
+		},
+		"titulo" : "Verdades"
+	},
+	"0x090203" : 
+	{
+		"calificaciones" : 
+		[
+			5.0,
+			4.0,
+			4.0
+		],
+		"descripcion" : "Jonas encuentra un misterioso dispositivo, mientras se revelan pistas sobre una organizaci\u00f3n que manipula el tiempo.",
+		"duracion" : 
+		{
+			"horas" : 0,
+			"minutos" : 12,
+			"segundos" : 0
+		},
+		"titulo" : "Sic Mundus Creatus Est"
+	},
+	"0x0A0000" : 
+	{
+		"descripcion" : "Malcolm, un ni\u00f1o superdotado, crece en una familia ca\u00f3tica y disfuncional, mientras intenta sobrevivir a los absurdos de la vida diaria con sus hermanos y padres.",
+		"genero" : "Comedia familiar",
+		"titulo" : "Malcolm el de en medio"
+	},
+	"0x0A0101" : 
+	{
+		"calificaciones" : 
+		[
+			5.0,
+			4.0,
+			5.0
+		],
+		"descripcion" : "Malcolm descubre que tiene un coeficiente intelectual alt\u00edsimo y lo trasladan a la clase de ni\u00f1os superdotados, lo que lo averg\u00fcenza.",
+		"duracion" : 
+		{
+			"horas" : 0,
+			"minutos" : 11,
+			"segundos" : 0
+		},
+		"titulo" : "Pilot"
+	},
+	"0x0A0102" : 
+	{
+		"calificaciones" : 
+		[
+			4.0,
+			5.0,
+			4.0
+		],
+		"descripcion" : "Lois pierde la cabeza cuando su vestido favorito desaparece y ninguno de los chicos quiere confesar qu\u00e9 pas\u00f3.",
+		"duracion" : 
+		{
+			"horas" : 0,
+			"minutos" : 11,
+			"segundos" : 0
+		},
+		"titulo" : "Red Dress"
+	},
+	"0x0A0103" : 
+	{
+		"calificaciones" : 
+		[
+			5.0,
+			5.0,
+			5.0
+		],
+		"descripcion" : "Hal y Lois se van de vacaciones y dejan a los chicos solos con Francis como encargado; todo sale de control.",
+		"duracion" : 
+		{
+			"horas" : 0,
+			"minutos" : 11,
+			"segundos" : 0
+		},
+		"titulo" : "Home Alone 4"
+	},
+	"0x0A0201" : 
+	{
+		"calificaciones" : 
+		[
+			5.0,
+			4.0,
+			5.0
+		],
+		"descripcion" : "Malcolm se obsesiona con una chica de su clase mientras Reese lucha contra la verg\u00fcenza p\u00fablica tras un incidente en la escuela.",
+		"duracion" : 
+		{
+			"horas" : 0,
+			"minutos" : 12,
+			"segundos" : 0
+		},
+		"titulo" : "Shame"
+	},
+	"0x0A0202" : 
+	{
+		"calificaciones" : 
+		[
+			4.0,
+			5.0,
+			5.0
+		],
+		"descripcion" : "Malcolm cuida al hijo de una amiga de su madre, pero descubre que el ni\u00f1o no es tan inocente como parece.",
+		"duracion" : 
+		{
+			"horas" : 0,
+			"minutos" : 12,
+			"segundos" : 0
+		},
+		"titulo" : "Malcolm Babysits"
+	},
+	"0x0A0203" : 
+	{
+		"calificaciones" : 
+		[
+			5.0,
+			4.0,
+			4.0
+		],
+		"descripcion" : "Malcolm va a una pijamada donde las cosas se vuelven muy raras, y Dewey queda atrapado en una loca aventura con un perro callejero.",
+		"duracion" : 
+		{
+			"horas" : 0,
+			"minutos" : 12,
+			"segundos" : 0
+		},
+		"titulo" : "Sleepover"
+	},
 	"0xFF0001" : 
 	{
 		"calificaciones" : 
@@ -661,17 +1099,18 @@
 			5.0,
 			4.0,
 			5.0,
+			5.0,
 			5.0
 		],
-		"descripcion" : "Paul Atreides se une a Chani y a los Fremen mientras busca venganza contra los conspiradores que destruyeron a su familia.",
+		"descripcion" : "Una familia es aterrorizada por una presencia oscura en su casa, por lo que recurren a dos investigadores paranormales.",
 		"duracion" : 
 		{
-			"horas" : 2,
-			"minutos" : 46,
+			"horas" : 1,
+			"minutos" : 52,
 			"segundos" : 0
 		},
-		"genero" : "Ciencia Ficci\u00f3n",
-		"titulo" : "Duna Parte Dos"
+		"genero" : "Terror",
+		"titulo" : "El conjuro"
 	},
 	"0xFF0002" : 
 	{
@@ -715,15 +1154,15 @@
 			4.0,
 			5.0
 		],
-		"descripcion" : "La historia de la Casa Targaryen y los eventos que llevaron a la guerra civil conocida como la Danza de los Dragones.",
+		"descripcion" : "Un grupo de soldados jud\u00edos planea asesinar a l\u00edderes nazis en la Francia ocupada, mientras una joven busca vengar la muerte de su familia.",
 		"duracion" : 
 		{
-			"horas" : 1,
-			"minutos" : 0,
+			"horas" : 2,
+			"minutos" : 33,
 			"segundos" : 0
 		},
-		"genero" : "Fantas\u00eda",
-		"titulo" : "La Casa del Drag\u00f3n"
+		"genero" : "Drama",
+		"titulo" : "Bastardos sin gloria"
 	},
 	"0xFF0005" : 
 	{
@@ -735,15 +1174,15 @@
 			5.0,
 			4.0
 		],
-		"descripcion" : "En la ut\u00f3pica Piltover y la oprimida Zaun, dos hermanas, Jinx y Vi, se encuentran en lados opuestos de una guerra creciente.",
+		"descripcion" : "Un hombre convence a su asistente para fingir ser su esposa y as\u00ed cubrir una mentira, pero terminan enamor\u00e1ndose.",
 		"duracion" : 
 		{
-			"horas" : 0,
-			"minutos" : 40,
+			"horas" : 1,
+			"minutos" : 57,
 			"segundos" : 0
 		},
-		"genero" : "Animaci\u00f3n",
-		"titulo" : "Arcane"
+		"genero" : "Comedia rom\u00e1ntica",
+		"titulo" : "Una esposa de mentira"
 	},
 	"0xFF0006" : 
 	{
@@ -754,14 +1193,90 @@
 			4.0,
 			5.0
 		],
-		"descripcion" : "Ambientada miles de a\u00f1os antes de los eventos de 'El Hobbit' y 'El Se\u00f1or de los Anillos', sigue a personajes que enfrentan el resurgimiento del mal en la Tierra Media.",
+		"descripcion" : "El hijo de Apollo Creed busca hacerse un nombre en el boxeo guiado por el legendario Rocky Balboa.",
+		"duracion" : 
+		{
+			"horas" : 2,
+			"minutos" : 13,
+			"segundos" : 0
+		},
+		"genero" : "Drama deportivo",
+		"titulo" : "Creed"
+	},
+	"0xFF0007" : 
+	{
+		"calificaciones" : 
+		[
+			5.0,
+			5.0,
+			4.0,
+			5.0
+		],
+		"descripcion" : "Un pirata exc\u00e9ntrico vive peligrosas aventuras en busca de tesoros, libertad y su barco perdido.",
+		"duracion" : 
+		{
+			"horas" : 2,
+			"minutos" : 23,
+			"segundos" : 0
+		},
+		"genero" : "Aventura",
+		"titulo" : "Piratas del Caribe"
+	},
+	"0xFF0008" : 
+	{
+		"calificaciones" : 
+		[
+			5.0,
+			5.0,
+			4.0,
+			5.0
+		],
+		"descripcion" : "Un ladr\u00f3n especializado en robar secretos del subconsciente debe implantar una idea en la mente de un heredero, entrando en sus sue\u00f1os dentro de sue\u00f1os.",
+		"duracion" : 
+		{
+			"horas" : 2,
+			"minutos" : 23,
+			"segundos" : 0
+		},
+		"genero" : "Ciencia ficci\u00f3n",
+		"titulo" : "El origen"
+	},
+	"0xFF0009" : 
+	{
+		"calificaciones" : 
+		[
+			5.0,
+			5.0,
+			4.0,
+			5.0
+		],
+		"descripcion" : "Ariel, una sirena curiosa, sue\u00f1a con vivir en el mundo humano y hace un peligroso trato con una bruja del mar para conseguirlo.",
 		"duracion" : 
 		{
 			"horas" : 1,
-			"minutos" : 10,
+			"minutos" : 23,
 			"segundos" : 0
 		},
-		"genero" : "Fantas\u00eda",
-		"titulo" : "El Se\u00f1or de los Anillos- Los Anillos de Poder"
+		"genero" : "Romance",
+		"titulo" : "La Sirenita"
+	},
+	"0xFF000A" : 
+	{
+		"calificaciones" : 
+		[
+			5.0,
+			5.0,
+			4.0,
+			5.0
+		],
+		"descripcion" : "Un grupo de astronautas viaja a trav\u00e9s de un agujero de gusano en busca de un nuevo planeta habitable para salvar a la humanidad.",
+		"duracion" : 
+		{
+			"horas" : 2,
+			"minutos" : 49,
+			"segundos" : 0
+		},
+		"genero" : "Ciencia ficci\u00f3n",
+		"titulo" : "Interestelar"
 	}
 }
