@@ -14,6 +14,8 @@ class Pelis : public Videos {
         void setCalificaciones() override;
         //Extras
         void mostrarInformacion() const override;
+        // Sobrecarga del operador de suma
+        Pelis& operator+=(double calificacion) override;
 
     private:
         int id_peli;

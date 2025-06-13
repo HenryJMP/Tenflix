@@ -18,6 +18,8 @@ class Serie {
         Cap getCapitulo(int) const;
         // Método para mostrar información
         void mostrarInformacion() const;
+        // Sobrecarga del operador de suma
+        Serie& operator+=(double calificacion);
 
     protected:
         std::vector<double> calificaciones;

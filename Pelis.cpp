@@ -23,6 +23,12 @@ void Pelis::setCalificaciones() {
     calificaciones.push_back(nueva_calificacion);
 }
 
+// Sobrecarga del operador de suma
+Pelis& Pelis::operator+=(double calificacion) {
+    calificaciones.push_back(calificacion);
+    return *this;
+}
+
 // Método para mostrar información
 void Pelis::mostrarInformacion() const {
     std::cout << "ID: " << std::hex << Videos::getId() << std::dec << std::endl;

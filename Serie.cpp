@@ -36,6 +36,12 @@ Cap Serie::getCapitulo(int index) const {
     return capitulos[index];
 }
 
+// Sobrecarga del operador de suma
+Serie& Serie::operator+=(double calificacion) {
+    calificaciones.push_back(calificacion);
+    return *this;
+}
+
 // Método para mostrar información
 void Serie::mostrarInformacion() const {
     std::cout << "ID: " << std::hex << id << std::dec << std::endl;
@@ -63,6 +69,8 @@ void Serie::mostrarInformacion() const {
     std::cout << promedioSerie << std::endl;
     std::cout << "----------------------------------------" << std::endl;
 }
+
+
 
 
 

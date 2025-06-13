@@ -27,6 +27,8 @@ class Videos{
         virtual void setCalificaciones();
         // Método para mostrar información
         virtual void mostrarInformacion() const = 0;
+        //Sobrecarga del operador de suma
+        virtual Videos& operator+=(double calificacion);
    
     protected:
         std::vector<double> calificaciones;

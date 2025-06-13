@@ -208,13 +208,16 @@ int main() {
             case 3: {
                 system("clear");
                 int id;
+                double calificacion;
                 std::cout << "Ingrese el ID de la película o capítulo (en hexadecimal): ";
                 std::cin >> std::hex >> id;
+                std::cout << "Ingrese la calificación a agregar: ";
+                std::cin >> calificacion;
 
                 bool encontrado = false;
                 for (auto& pelicula : peliculas) {
                     if (pelicula.getId() == id) {
-                        pelicula.setCalificaciones();
+                        pelicula += calificacion;
                         encontrado = true;
                         break;
                     }
@@ -224,7 +227,7 @@ int main() {
                     for (auto& serie : series) {
                         for (auto& capitulo : serie.capitulos) {
                             if (capitulo.getId() == id) {
-                                capitulo.setCalificaciones();
+                                capitulo += calificacion;
                                 encontrado = true;
                                 break;
                             }

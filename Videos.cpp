@@ -40,3 +40,9 @@ void Videos::setCalificaciones() {
     std::cin >> nueva_calificacion;
     calificaciones.push_back(nueva_calificacion);
 }
+
+// Sobrecarga del operador de suma
+Videos& Videos::operator+=(double calificacion) {
+    calificaciones.push_back(calificacion);
+    return *this;
+}

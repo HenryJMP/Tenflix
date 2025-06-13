@@ -23,7 +23,11 @@ int Cap::getIdCap() const {
     return id_cap;
 }
 
-// Métodos de modificación
+// Sobrecarga del operador de suma
+Cap& Cap::operator+=(double calificacion) {
+    calificaciones.push_back(calificacion);
+    return *this;
+}
 
 // Permite al usuario ingresar una nueva calificación desde la consola y la agrega al vector de calificaciones
 void Cap::setCalificaciones() {

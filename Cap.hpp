@@ -16,6 +16,8 @@ class Cap : public Videos {
          void setCalificaciones() override;
          // Método para mostrar información
          void mostrarInformacion() const override;
+         // Sobrecarga del operador de suma
+         Cap& operator+=(double calificacion) override;
 
       private:
          int id_serie;
