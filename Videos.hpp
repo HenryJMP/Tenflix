@@ -1,8 +1,14 @@
-#pragma once
+#pragma once // Evita que este archivo de encabezado sea incluido más de una vez
 #include <iostream>
 #include <vector>
-#include <cstdint>
+#include <cstdint> // Para tipos de datos como unit32_t
 #include <iomanip>
+#include <QApplication>
+#include <QMainWindow>
+#include <QPushButton>
+#include <QLabel>
+#include <QVBoxLayout>
+#include <QWidget>
 // Serie 0 Temp 0 Cap 11? Es una pélicula
 // id peli= 0x00000B
 // Serue 10 Temo 2 Cap 11? Es el cap de una serie
@@ -24,7 +30,7 @@ class Videos{
         virtual std::vector<double> getCalificaciones() const = 0;
         std::string getDescripcion() const;
         // Métodos de modificación
-        virtual void setCalificaciones();
+        virtual void setCalificaciones(double);
         // Método para mostrar información
         virtual void mostrarInformacion() const = 0;
    
